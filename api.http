@@ -1,3 +1,9 @@
+GET http://localhost:3008/api/greetings
+
+###
+GET https://sqlite-greet.onrender.com/api/greetings
+
+###
 POST http://localhost:3008/api/greetings
 Content-Type: application/json
 
@@ -7,4 +13,10 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:3008/api/greetings
+POST https://sqlite-greet.onrender.com/api/greetings
+Content-Type: application/json
+
+{
+    "language" : "Afrikaans",
+    "greeting" : "Goeie dag"
+}
